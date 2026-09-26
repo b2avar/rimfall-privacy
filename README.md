@@ -14,12 +14,14 @@ App Store Connect'e verilecek adresler:
 
 ## App Store "App Privacy" beyanı (özet)
 
-Oyunda analitik, hata raporlama, reklam veya satın alma yok. Sunucu tarafı Unity Gaming Services (Authentication, Cloud Code, Cloud Save, Leaderboards).
+Oyunda reklam veya satın alma yok. Sunucu tarafı Unity Gaming Services (Authentication, Cloud Code, Cloud Save, Leaderboards). İzinli anonim istatistik (Unity Analytics) ve çökme raporları (Unity Diagnostics) var.
 
 | Kategori › Tür | Toplanıyor mu | Kullanıcıya bağlı mı | İzleme (tracking) | Amaç |
 |---|---|---|---|---|
 | Identifiers › User ID (UGS anonim oyuncu kimliği) | Evet | Evet | Hayır | App Functionality |
 | User Content › Gameplay Content (skor, dalga, tur kaydı, jeton/kostüm) | Evet | Evet | Hayır | App Functionality |
-| Contact Info, Location, Usage Data, Diagnostics, Purchases, Advertising Data | Hayır | – | – | – |
+| Usage Data › Product Interaction (izinli anonim istatistik) | Evet | Hayır | Hayır | Analytics |
+| Diagnostics › Crash Data, Performance Data, Other Diagnostic Data | Evet | Hayır | Hayır | App Functionality |
+| Contact Info, Location, Purchases, Advertising Data | Hayır | – | – | – |
 
 Game Center verisi Apple'ın kendi hizmetidir, beyana eklenmez. Reklam yok, IDFA kullanılmaz, veri satılmaz. İletişim: b2avargames@gmail.com
